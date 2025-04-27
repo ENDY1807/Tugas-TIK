@@ -1,0 +1,92 @@
+/* biodata.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.foto {
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.biodata {
+    width: 60%;
+}
+
+.biodata h2 {
+    margin-top: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.biodata p {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.kembali {
+    background-color: #383838;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+}
+
+.kembali:hover {
+    background-color: #666666;
+}
+
+header {
+    background-color: #3a3a3a;
+    height: 60px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+i{
+    font-size: 20px;
+}
+
+a{
+    color: #414040;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(66, 66, 66);
+}
