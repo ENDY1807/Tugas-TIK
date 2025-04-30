@@ -30,5 +30,18 @@
     </div>
     <button class="kembali" onclick="window.location.href='index.html'">Back</button>
     <audio src="music/Johnny Huynh - LEFT OF ME (Official Lyric Video).mp3" autoplay></audio>
+<script>
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const url = this.href;
+      document.body.classList.remove('fade-in');
+      document.body.style.opacity = 0;
+      setTimeout(() => {
+        window.location.href = index.html;
+      }, 500); // waktu sesuai dengan transition di CSS
+    });
+  });
+</script>
 </body>
 </html>
