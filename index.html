@@ -37,18 +37,5 @@
         </div>
     </div>
     <audio src="song/" autoplay></audio>
-<script>
-  document.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const url = this.href;
-      document.body.classList.remove('fade-in');
-      document.body.style.opacity = 0;
-      setTimeout(() => {
-        window.location.href = Nazril.html;
-      }, 500); // waktu sesuai dengan transition di CSS
-    });
-  });
-</script>
 </body>
 </html>
